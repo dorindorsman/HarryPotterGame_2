@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hw2.activities.Activity_Top"
+    android:keepScreenOn="true"
+    android:layoutDirection="ltr">
+
+
+
+    <ImageView
+        android:id="@+id/panel_IMG_game_over_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_dark_background"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_game_over_background"
+        android:visibility="visible" />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/panel_LBL_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/harry_potter_font"
+            android:padding="5dp"
+            android:text=" TOP 10 "
+            android:textColor="#E6C067"
+            android:textSize="60sp" />
+
+
+        <FrameLayout
+            android:id="@+id/frameScores"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="24dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+
+        <FrameLayout
+            android:id="@+id/frameMap"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </FrameLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/panel_BTN_Back_Menu"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#11544B"
+            android:layout_marginStart="5dp"
+            android:drawableLeft="@drawable/ic_back_menu"
+            android:fontFamily="@font/harry_potter_font"
+            android:scaleType="fitCenter"
+            android:text="Menu"
+            android:textColor="#E6C067"
+            android:textSize="20sp"
+            app:cornerRadius="20dp"
+            app:strokeColor="#E6C067"
+            app:strokeWidth="3dp"
+            tools:ignore="OnClick"
+            android:onClick="BackToMenu"
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>

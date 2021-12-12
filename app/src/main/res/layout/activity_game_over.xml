@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hw2.activities.Activity_Game_Over"
+    android:layoutDirection="ltr">
+
+
+    <ImageView
+        android:id="@+id/panel_IMG_game_over_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_dark_background"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_game_over_background"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/panel_LBL_GameOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/harry_potter_font"
+        android:text=" GAME OVER ! "
+        android:padding="5dp"
+        android:textColor="#E6C067"
+        android:textSize="60sp" />
+<!--     android:background="@drawable/textview_border"    -->
+
+
+
+    <LinearLayout
+        android:id="@+id/panel_layout_Player_Score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/panel_LBL_title_score_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:text=" Your Score is : "
+            android:fontFamily="@font/harry_potter_font"
+            android:textColor="#E6C067"
+            android:lines="@color/black"
+            android:textSize="30sp"
+            android:background="@drawable/textview_border"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/panel_LBL_score_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/harry_potter_font"
+            android:textColor="#E6C067"
+            android:lines="@color/black"
+            android:textSize="30sp"
+            android:background="@drawable/textview_border"
+            android:visibility="visible"/>
+
+    <LinearLayout
+        android:id="@+id/panel_layout_Player_Buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/panel_BTN_start_over"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:scaleType="fitCenter"
+            android:layout_marginEnd="5dp"
+            android:text="Play again"
+            android:textSize="20sp"
+            android:fontFamily="@font/harry_potter_font"
+            android:textColor="#E6C067"
+            android:backgroundTint="#11544B"
+            android:drawableLeft="@drawable/ic_btn_start_over"
+            app:cornerRadius="20dp"
+            app:strokeColor="#E6C067"
+            app:strokeWidth="3dp"
+            android:onClick="nextActivity"
+            tools:ignore="OnClick"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/panel_BTN_Back_Menu"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#11544B"
+            android:layout_marginStart="5dp"
+            android:drawableLeft="@drawable/ic_back_menu"
+            android:fontFamily="@font/harry_potter_font"
+            android:scaleType="fitCenter"
+            android:text="Menu"
+            android:textColor="#E6C067"
+            android:textSize="20sp"
+            app:cornerRadius="20dp"
+            app:strokeColor="#E6C067"
+            app:strokeWidth="3dp"
+            tools:ignore="OnClick"
+            android:onClick="BackToMenu"
+            />
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

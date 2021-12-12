@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layoutDirection="ltr">
+
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".GameActivity"
+        android:background="#11544B"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:orientation="vertical">
+
+
+            <TableLayout
+                android:id="@id/table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#11544B">
+
+                <TableRow
+                    android:id="@+id/tabelrow0"
+                    android:background="#11544B">
+
+                    <TextView
+                        android:id="@+id/rowname0"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:text="Player Name"
+                        android:textColor="#E6C067"
+                        android:textSize="25sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/rowScore0"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:text="Score"
+                        android:textColor="#E6C067"
+                        android:textSize="25sp">
+
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabelrow1"
+                    android:background="#E6C067">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/tabelName1"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/harry_potter_font"
+
+                        android:layout_weight="4"
+                        android:textColor="#11544B"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="name player 1"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:id="@+id/tabelScore1"
+                        android:layout_width="0dp"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="score player 1"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabelrow2"
+
+                    android:background="#E6C067">
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:id="@+id/tabelName2"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="name player 2"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:id="@+id/tabelScore2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="score player 2"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabelrow3"
+                    android:background="#E6C067">
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:id="@+id/tabelName3"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="name player 3"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:id="@+id/tabelScore3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="score player 3"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabelrow4"
+                    android:background="#E6C067">
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:id="@+id/tabelName4"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="name player 4"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:id="@+id/tabelScore4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text= "score player 4"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabelrow5"
+                    android:background="#E6C067">
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:id="@+id/tabelName5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="name player 5"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:id="@+id/tabelScore5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:padding="10sp"
+                        android:text="score player 5"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabelrow6"
+                    android:background="#E6C067">
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:id="@+id/tabelName6"
+                        android:layout_width="0dp"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="name player 6"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:id="@+id/tabelScore6"
+                        android:layout_width="0dp"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="score player 6"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabelrow7"
+                    android:background="#E6C067">
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:id="@+id/tabelName7"
+                        android:layout_width="0dp"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="name player 7"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:id="@+id/tabelScore7"
+                        android:layout_width="0dp"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="score player 7"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabelrow8"
+
+                    android:background="#E6C067">
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:id="@+id/tabelName8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="name player 8"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:id="@+id/tabelScore8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="score player 8"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabelrow9"
+
+                    android:background="#E6C067">
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:id="@+id/tabelName9"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="name player 9"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:id="@+id/tabelScore9"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="score player 9"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabelrow10"
+                    android:background="#E6C067">
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:id="@+id/tabelName10"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="name player 10"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:textColor="#11544B"
+                        android:id="@+id/tabelScore10"
+                        android:layout_width="0dp"
+                        android:fontFamily="@font/harry_potter_font"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="10sp"
+                        android:text="score player 5"
+                        android:textSize="12sp">
+
+                    </com.google.android.material.button.MaterialButton>
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

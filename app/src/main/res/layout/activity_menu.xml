@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hw2.activities.Activity_Menu"
+    android:layoutDirection="ltr">
+
+
+    <ImageView
+        android:id="@+id/panel_IMG_game_menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_dark_background"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_menu_background"
+        android:visibility="visible" />
+
+
+
+    <LinearLayout
+        android:id="@+id/panel_layout_name_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/panel_LBL_player_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:hint="Player Name"
+            android:textColorHint="@color/white"
+            app:helperText="Required*"
+            app:counterEnabled="true"
+            app:counterMaxLength="20"
+            app:hintTextColor="@color/white"
+            app:helperTextTextColor="#FF0000"
+            app:boxStrokeColor="#E6C067"
+            app:boxStrokeWidth="2dp"
+            app:startIconDrawable="@drawable/ic_baseline_person_24"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="20"
+                android:outlineAmbientShadowColor="@color/white"
+                android:shadowColor="@color/white"
+                android:textColor="@color/white"
+                android:ems="30"
+                android:imeOptions="actionDone" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/panel_BTN_OK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="30dp"
+            android:text="OK"
+            android:textSize="20sp"
+            android:fontFamily="@font/harry_potter_font"
+            android:textColor="#E6C067"
+            android:singleLine="true"
+            android:backgroundTint="#11544B"
+            android:drawableLeft="@drawable/ic_btn_ok"
+            app:cornerRadius="20dp"
+            app:strokeColor="#E6C067"
+            app:strokeWidth="3dp"
+            android:onClick="getName"
+            tools:ignore="OnClick"/>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/panel_layout_game_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/panel_LBL_choose_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:text=" Choose Your Game Mode : "
+            android:fontFamily="@font/harry_potter_font"
+            android:textColor="#E6C067"
+            android:lines="@color/black"
+            android:textSize="30sp"
+            android:background="@drawable/textview_border"
+            android:visibility="visible"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/panel_BTN_start_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp"
+            android:text="Buttons"
+            android:textSize="20sp"
+            android:fontFamily="@font/harry_potter_font"
+            android:textColor="#E6C067"
+            android:singleLine="true"
+            android:backgroundTint="#11544B"
+            android:drawableLeft="@drawable/ic_btn_start_game"
+            app:cornerRadius="20dp"
+            app:strokeColor="#E6C067"
+            app:strokeWidth="3dp"
+            android:onClick="nextActivity"
+            tools:ignore="OnClick"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/panel_BTN_start_Sensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="30dp"
+            android:text="SENSORS"
+            android:textSize="20sp"
+            android:fontFamily="@font/harry_potter_font"
+            android:textColor="#E6C067"
+            android:singleLine="true"
+            android:backgroundTint="#11544B"
+            android:drawableLeft="@drawable/ic_btn_start_game"
+            app:cornerRadius="20dp"
+            app:strokeColor="#E6C067"
+            app:strokeWidth="3dp"
+            android:onClick="nextActivity"
+            tools:ignore="OnClick"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/panel_layout_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/panel_LBL_choose_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:text=" Tap The Player For Change : "
+            android:fontFamily="@font/harry_potter_font"
+            android:textColor="#E6C067"
+            android:lines="@color/black"
+            android:textSize="30sp"
+            android:background="@drawable/textview_border"
+            android:visibility="visible"/>
+
+
+        <ImageButton
+            android:id="@+id/panel_BTN_player"
+            android:layout_width="150dp"
+            android:layout_height="147dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:onClick="changeMyPlayer"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:visibility="visible"
+            tools:ignore="OnClick" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/panel_BTN_back"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/panel_BTN_player"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_back_menu"
+            android:padding="7dp"
+            android:scaleType="fitCenter"
+            android:singleLine="true"
+            android:fontFamily="@font/harry_potter_font"
+            android:backgroundTint="#11544B"
+            android:text="Menu"
+            android:textColor="#E6C067"
+            android:textSize="20sp"
+            android:visibility="visible"
+            app:backgroundTint="#00D50B0B"
+            app:cornerRadius="20dp"
+            app:strokeColor="#E6C067"
+            app:strokeWidth="3dp"
+            android:onClick="backToMenu"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/panel_layout_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/panel_layout_name_player"
+        android:visibility="visible">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/panel_BTN_setting"
+            android:layout_width="0dp"
+            android:layout_weight="1.1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#11544B"
+            android:drawableLeft="@drawable/ic_btn_setting"
+            android:fontFamily="@font/harry_potter_font"
+            android:onClick="setImgPlayer"
+            android:padding="7dp"
+            android:scaleType="fitCenter"
+            android:singleLine="true"
+            android:text="SETTING"
+            android:textColor="#E6C067"
+            android:textSize="15sp"
+            android:visibility="visible"
+            app:backgroundTint="#00D50B0B"
+            app:cornerRadius="20dp"
+            app:strokeColor="#E6C067"
+            app:strokeWidth="3dp"
+            tools:ignore="OnClick" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/panel_BTN_Top_10"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/panel_BTN_setting"
+            android:layout_toEndOf="@id/panel_BTN_setting"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:drawableLeft="@drawable/ic_btn_top10"
+            android:fontFamily="@font/harry_potter_font"
+            android:onClick="showTop10"
+            android:padding="7dp"
+            android:scaleType="fitCenter"
+            android:singleLine="true"
+            android:backgroundTint="#11544B"
+            android:text="TOP 10"
+            android:textColor="#E6C067"
+            android:textSize="15sp"
+            android:visibility="visible"
+            app:backgroundTint="#00D50B0B"
+            app:cornerRadius="20dp"
+            app:strokeColor="#E6C067"
+            app:strokeWidth="3dp"
+            tools:ignore="OnClick" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/panel_BTN_exit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/panel_BTN_Top_10"
+            android:layout_toEndOf="@id/panel_BTN_Top_10"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:drawableLeft="@drawable/ic_btn_exit"
+            android:padding="7dp"
+            android:backgroundTint="#11544B"
+            android:fontFamily="@font/harry_potter_font"
+            android:text="EXIT"
+            android:textSize="15sp"
+            android:textColor="#E6C067"
+            android:visibility="visible"
+            app:backgroundTint="#00D50B0B"
+            app:cornerRadius="20dp"
+            app:strokeColor="#E6C067"
+            app:strokeWidth="3dp"
+            android:onClick="nextActivity"
+            tools:ignore="OnClick" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
