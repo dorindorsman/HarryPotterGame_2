@@ -29,8 +29,6 @@ public class Activity_Menu extends AppCompatActivity {
 
     private ImageView panel_IMG_game_menu_background;
 
-
-
     private LinearLayout panel_layout_name_player;
     private TextInputLayout panel_LBL_player_name;
     private MaterialButton panel_BTN_OK;
