@@ -169,7 +169,6 @@ public class Activity_Menu extends AppCompatActivity {
             public void onClick(View v) {
                 menu_music.start();
                 gameMode=true;
-                theme_music.stop();
                 nextActivity(v);
             }
         });
@@ -179,9 +178,7 @@ public class Activity_Menu extends AppCompatActivity {
             public void onClick(View v) {
                 menu_music.start();
                 gameMode=false;
-                theme_music.stop();
                 nextActivity(v);
-                //showPlayerNameLayout();
             }
         });
 
