@@ -19,6 +19,7 @@ When the prizes are hit, the points increase by 100, and when the player hits th
         <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_hermione.png" align="left" height="110" width="80" ></a></td>
         <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_snape.png" align="left" height="110" width="80" ></a></td>
         <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_hagrid.png" align="left" height="110" width="80" ></a></td>
+            <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/3b66112a7cd5936385a2a66f42f366ba9f851919/app/src/main/res/drawable/img_dambeldor.png" align="left" height="110" width="90" ></a></td>
  </tr>
  </table>
 
@@ -38,40 +39,33 @@ When the prizes are hit, the points increase by 100, and when the player hits th
     </td>
     <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_hat.png" align="left" height="100" width="100" ></a>
     </td>
-    <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_hat.png" align="left" height="100" width="100" ></a>
+    <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/3b66112a7cd5936385a2a66f42f366ba9f851919/app/src/main/res/drawable/img_goat.png" align="left" height="100" width="100" ></a>
     </td>
-    <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_hat.png" align="left" height="100" width="100" ></a>
+    <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/3b66112a7cd5936385a2a66f42f366ba9f851919/app/src/main/res/drawable/img_ghost.png" align="left" height="100" width="100" ></a>
     </td>
-    <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_hat.png" align="left" height="100" width="100" ></a>
+    <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/3b66112a7cd5936385a2a66f42f366ba9f851919/app/src/main/res/drawable/img_frog.png" align="left" height="100" width="100" ></a>
     </td>
-    <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_hat.png" align="left" height="100" width="100" ></a>
+    <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/3b66112a7cd5936385a2a66f42f366ba9f851919/app/src/main/res/drawable/img_evil.png" align="left" height="100" width="100" ></a>
     </td>
   </tr>
  </table>
-
-
-
+ 
 ### Points
 <table>
   <tr>
     <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_rock.png" align="left" height="90" width="90" ></a></td>
     <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_prize.png" align="left" height="90" width="90" ></a></td>
-    <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_goblet.png" align="left" height="100" width="100" ></a></td>
+    <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_goblet.png" align="left" height="110" width="100" ></a></td>
+        <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/3b66112a7cd5936385a2a66f42f366ba9f851919/app/src/main/res/drawable/img_ball.png" align="left" height="100" width="100" ></a></td>
   </tr>
  </table>
 
 ### Lives
 <table>
   <tr>
-  <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_heart.png" align="left" height="100" width="100" ></a></td>
+  <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_heart.png" align="left" height="90" width="90" ></a></td>
   </tr>
  </table>
 
 
 
-
-
-
-
-
-<a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_hat.png" align="left" height="100" width="100" ></a>
