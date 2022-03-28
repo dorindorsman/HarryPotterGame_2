@@ -66,6 +66,11 @@ When the prizes are hit, the points increase by 100, and when the player hits th
   <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_heart.png" align="left" height="90" width="90" ></a></td>
   </tr>
  </table>
+ 
+ 
 
+The game has 2 options<br/>
+- Game buttons<br/>
+- Sensors game<br/>
 
 
