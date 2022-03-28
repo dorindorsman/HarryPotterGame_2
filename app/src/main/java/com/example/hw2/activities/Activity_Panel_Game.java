@@ -2,27 +2,19 @@
 
 package com.example.hw2.activities;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
 
-import android.Manifest;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import android.location.Location;
-import android.location.LocationManager;
 import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
-import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
@@ -32,11 +24,8 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.activities.R;
-import com.example.hw2.activities.objects.MyDB;
-import com.example.hw2.activities.objects.Player;
 
 import java.text.DecimalFormat;
-import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Timer;
@@ -156,12 +145,14 @@ public class Activity_Panel_Game extends AppCompatActivity {
     private void checkCrash() {
         if (location[4][playerPosition]!=0){
             if(imgs.get(location[4][playerPosition]).isPrize()==true){
-                Toast.makeText(this, "Good Job", Toast.LENGTH_SHORT).show();
                 win_music.start();
                 score+=100;
                 if(imgs.get(location[4][playerPosition]).isLive() && lives<MAX_LIVES){
+                    Toast.makeText(this, "YOU GOT LIVE", Toast.LENGTH_SHORT).show();
                     lives++;
                     panel_IMG_hearts[lives].setVisibility(View.VISIBLE);
+                }else{
+                    Toast.makeText(this, "GOOD JOB!", Toast.LENGTH_SHORT).show();
                 }
             }else{
                 Toast.makeText(this, "BOOM!", Toast.LENGTH_SHORT).show();
@@ -419,8 +410,10 @@ public class Activity_Panel_Game extends AppCompatActivity {
         public void onSensorChanged(SensorEvent event) {
             DecimalFormat df = new DecimalFormat("##.##");
             float x = event.values[0];
-            initPlayerSensor(x);
+            initPlayerMoveX(x);
         }
+
+
 
         @Override
         public void onAccuracyChanged(Sensor sensor, int accuracy) {
@@ -428,24 +421,33 @@ public class Activity_Panel_Game extends AppCompatActivity {
         }
     };
 
-    private void initPlayerSensor(float x){
+
+    private void initPlayerMoveX(float x){
         if(x<-4){
             panel_IMG_player[playerPosition].setVisibility(View.INVISIBLE);
             playerPosition =4;
             panel_IMG_player[playerPosition].setVisibility(View.VISIBLE);
+        }else if(-4<x && x<-3.5){
+
         }
-        else if(-4<x && x<-2){
+        else if(-3.5<x && x<-1.5){
             panel_IMG_player[playerPosition].setVisibility(View.INVISIBLE);
             playerPosition =3;
             panel_IMG_player[playerPosition].setVisibility(View.VISIBLE);
-        }else if(-2<x && x<2){
+        }else if(x<-1.5 && x<-1){
+
+        } else if(-1<x && x<1){
             panel_IMG_player[playerPosition].setVisibility(View.INVISIBLE);
             playerPosition =2;
             panel_IMG_player[playerPosition].setVisibility(View.VISIBLE);
-        }else if(2<x && x<4){
+        }else if(x<1 && x<1.5){
+
+        }else if(1.5<x && x<3.5){
             panel_IMG_player[playerPosition].setVisibility(View.INVISIBLE);
             playerPosition =1;
             panel_IMG_player[playerPosition].setVisibility(View.VISIBLE);
+        }else if(x<3.5 && x<4){
+
         }else if(4<x){
             panel_IMG_player[playerPosition].setVisibility(View.INVISIBLE);
             playerPosition =0;
