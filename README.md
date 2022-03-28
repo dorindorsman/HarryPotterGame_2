@@ -11,7 +11,6 @@ When the prizes are hit, the points increase by 100, and when the player hits th
 
 ### Characters 
 <table>
-  <tr><td>Characters</td></tr>
   <tr>
         <td> <a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_ron.png" align="left" height="110" width="60" ></a> </td>
         <td> <a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_mcgonagall.png" align="left" height="110" width="80" > </a> </td>
@@ -26,7 +25,7 @@ When the prizes are hit, the points increase by 100, and when the player hits th
 
 
 
-### obstacles
+### Obstacles
 <table>
   <tr>
     <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/3ddecdfe8600e7132858f7bfb0b26630d7f47ce1/app/src/main/res/drawable/img_voldermorte.png" align="left" height="100" width="100" ></a>
