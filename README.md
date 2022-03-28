@@ -69,8 +69,8 @@ When the prizes are hit, the points increase by 100, and when the player hits th
  
  
 
-The game has 2 options<br/>
-- Game buttons<br/>
-- Sensors game<br/>
+The game has 2 options:<br/>
+- Buttons Game <br/>
+- Sensors Game<br/>
 
 
