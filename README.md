@@ -1,6 +1,7 @@
 
 ![Splah-Screen](https://media.giphy.com/media/k1KASi3xNivjjBSb4N/giphy.gif)
-# Welcome to Harry Potter Game
+<h1 align="center">Welcome to Harry Potter Game</h1>
+
 2.0 Version of the game.
 
 
