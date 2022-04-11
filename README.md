@@ -82,5 +82,5 @@ When the player hits the lightning, the number of lives increases by one.<br/>
 
 
 
-## Sensors Game :link:
+## Sensors Game :satellite:
 
