@@ -6,7 +6,7 @@
 </p>
 
 
-# Description: :pencil2:
+# :pencil2:Description: 
 An Android-based game featuring familiar characters from Harry Potter movies.<br/>
 The aim of the game is to escape from obstacles and score as many points as possible.<br/>
 The game begins when the player has 3 lives. <br/>
@@ -14,7 +14,7 @@ When the player hits the obstacle, the number of lives decreases by one and 50 p
 When the player hits the prizes, the points increase by 100.<br/>
 When the player hits the lightning, the number of lives increases by one.<br/>
 
-### Characters :blush:
+### :blush:Characters 
 <table>
   <tr>
         <td> <a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_ron.png" align="left" height="110" width="60" ></a> </td>
@@ -30,7 +30,7 @@ When the player hits the lightning, the number of lives increases by one.<br/>
 
 
 
-### Obstacles 
+### :boom:Obstacles 
 <table>
   <tr>
     <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/3ddecdfe8600e7132858f7bfb0b26630d7f47ce1/app/src/main/res/drawable/img_voldermorte.png" align="left" height="100" width="100" ></a>
@@ -55,7 +55,7 @@ When the player hits the lightning, the number of lives increases by one.<br/>
   </tr>
  </table>
  
-### Points
+### :trophy:Points
 <table>
   <tr>
     <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_rock.png" align="left" height="90" width="90" ></a></td>
@@ -65,7 +65,7 @@ When the player hits the lightning, the number of lives increases by one.<br/>
   </tr>
  </table>
 
-### Lives
+### :heart:Lives
 <table>
   <tr>
   <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_heart.png" align="left" height="90" width="90" ></a></td>
@@ -78,7 +78,7 @@ The game has 2 options:<br/>
 - Buttons Game <br/>
 - Sensors Game<br/>
 
-## Buttons Game :video_game:
+## :video_game:Buttons Game 
 
 
 
