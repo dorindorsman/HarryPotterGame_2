@@ -1,17 +1,20 @@
-[![Splah-Screen](https://media.giphy.com/media/k1KASi3xNivjjBSb4N/giphy.gif)
 <h1 align="center">Welcome to Harry Potter Game</h1>
+<h6 align="center">2.0 Version of the game.</h6>
 
-2.0 Version of the game.
+<p align="center">
+  <img src="https://media.giphy.com/media/k1KASi3xNivjjBSb4N/giphy.gif" alt="animated" />
+</p>
 
 
-
-# Description:
+# Description: :pencil2:
 An Android-based game featuring familiar characters from Harry Potter movies.<br/>
 The aim of the game is to escape from obstacles and score as many points as possible.<br/>
-The game begins when the player has 3 lives. When the player hits the obstacle, the number of lives decreases by one and 50 points decrease. <br/>
-When the prizes are hit, the points increase by 100, and when the player hits the lightning, the number of lives increases by one.<br/>
+The game begins when the player has 3 lives. <br/>
+When the player hits the obstacle, the number of lives decreases by one and 50 points decrease. <br/>
+When the player hits the prizes, the points increase by 100.<br/>
+When the player hits the lightning, the number of lives increases by one.<br/>
 
-### Characters 
+### Characters :blush:
 <table>
   <tr>
         <td> <a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/12379349731a327ac0e1928f0e6db22317179995/app/src/main/res/drawable/img_ron.png" align="left" height="110" width="60" ></a> </td>
@@ -27,7 +30,7 @@ When the prizes are hit, the points increase by 100, and when the player hits th
 
 
 
-### Obstacles
+### Obstacles 
 <table>
   <tr>
     <td><a href="url"><img src="https://github.com/dorindorsman/HarryPotterGame_2/blob/3ddecdfe8600e7132858f7bfb0b26630d7f47ce1/app/src/main/res/drawable/img_voldermorte.png" align="left" height="100" width="100" ></a>
@@ -75,4 +78,9 @@ The game has 2 options:<br/>
 - Buttons Game <br/>
 - Sensors Game<br/>
 
+## Buttons Game :video_game:
+
+
+
+## Sensors Game
 
