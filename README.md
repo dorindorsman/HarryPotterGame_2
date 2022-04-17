@@ -73,12 +73,34 @@ When the player hits the lightning, the number of lives increases by one.<br/>
  </table>
  
  
+ 
+ <p align="center">
+  <img src="https://media.giphy.com/media/G9JfCBBEJJQPPoJ9S3/giphy.gif" />
+</p>
+
+ <p align="center">
+  <img src="https://media.giphy.com/media/t8cHvlCBbU3CDl8wYQ/giphy.gif" />
+</p>
+
+ <p align="center">
+  <img src="https://media.giphy.com/media/cE34AwkVSy38Y85e17/giphy.gif" />
+</p>
+
+ <p align="center">
+  <img src="https://media.giphy.com/media/JeC6mkBADcr4Vi4uiL/giphy.gif" />
+</p>
+
+ <p align="center">
+  <img src="https://media.giphy.com/media/d19BICI1YLGenUCbpO/giphy.gif" />
+</p>
+
 
 # The game has 2 options:<br/>
-:radio_button:Buttons Game <br/><br/>
-:radio_button:Sensors Game<br/>
+:radio_button:Buttons Game (version 1.0)<br/><br/>
+:radio_button:Sensors Game (version 2.0)<br/>
 
 ## Buttons Game :video_game: 
+-The player has to move the selected character using two buttons (right or left) in order to avoid obstacles.
 
 
 
