@@ -1,18 +1,14 @@
 <h1 align="center">Welcome to Harry Potter Game</h1>
 <h6 align="center">2.0 Version of the game.</h6>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/k1KASi3xNivjjBSb4N/giphy.gif" alt="animated" />
-</p>
-
 
 # Description :pencil2:
-An Android-based game featuring familiar characters from Harry Potter movies.<br/>
-The aim of the game is to escape from obstacles and score as many points as possible.<br/>
-The game begins when the player has 3 lives. <br/>
-When the player hits the obstacle, the number of lives decreases by one and 50 points decrease. <br/>
-When the player hits the prizes, the points increase by 100.<br/>
-When the player hits the lightning, the number of lives increases by one.<br/>
+- An Android-based game featuring familiar characters from Harry Potter movies.<br/>
+- The aim of the game is to escape from obstacles and score as many points as possible.<br/>
+- The game begins when the player has 3 lives. <br/>
+- When the player hits the obstacle, the number of lives decreases by one and 50 points decrease. <br/>
+- When the player hits the prizes, the points increase by 100.<br/>
+- When the player hits the lightning, the number of lives increases by one.<br/>
 
 ### Characters :blush: 
 <table>
@@ -73,36 +69,24 @@ When the player hits the lightning, the number of lives increases by one.<br/>
  </table>
  
  
+ ### Screens: :iphone:
+ |Splash Screen - using Anmation|Menu Screen - The player has to enter his name|Settings Screen - The player can choose a character to play|Top 10 Screen - The player can expect the maximum score|
+ |--|--|--|--|
+ |<img src="https://media.giphy.com/media/k1KASi3xNivjjBSb4N/giphy.gif" alt="animated" width="400" height="480"/>|<img src="https://media.giphy.com/media/G9JfCBBEJJQPPoJ9S3/giphy.gif" alt="animated" width="420" height="480"/>|<img src="https://media.giphy.com/media/t8cHvlCBbU3CDl8wYQ/giphy.gif" alt="animated" width="350" height="480"/>|<img src="https://media.giphy.com/media/cE34AwkVSy38Y85e17/giphy.gif" alt="animated" width="350" height="480"/>|
+
  
- <p align="center">
-  <img src="https://media.giphy.com/media/G9JfCBBEJJQPPoJ9S3/giphy.gif" />
-</p>
-
- <p align="center">
-  <img src="https://media.giphy.com/media/t8cHvlCBbU3CDl8wYQ/giphy.gif" />
-</p>
-
- <p align="center">
-  <img src="https://media.giphy.com/media/cE34AwkVSy38Y85e17/giphy.gif" />
-</p>
-
- <p align="center">
-  <img src="https://media.giphy.com/media/JeC6mkBADcr4Vi4uiL/giphy.gif" />
-</p>
-
- <p align="center">
-  <img src="https://media.giphy.com/media/d19BICI1YLGenUCbpO/giphy.gif" />
-</p>
-
 
 # The game has 2 options:<br/>
+
 :radio_button:Buttons Game (version 1.0)<br/><br/>
 :radio_button:Sensors Game (version 2.0)<br/>
 
 ## Buttons Game :video_game: 
--The player has to move the selected character using two buttons (right or left) in order to avoid obstacles.
-
+<p align="center">The player has to move the selected character using two buttons (right or left) in order to avoid obstacles.</p><br/>
+<p align="center"><img src="https://media.giphy.com/media/d19BICI1YLGenUCbpO/giphy.gif" alt="animated"/></p>
 
 
 ## Sensors Game :satellite:
+<p align="center">The player movement can be controlled via the X-exis Sensors of your device in order to avoid obstacles</p><br/>
+<p align="center"><img src="https://media.giphy.com/media/JeC6mkBADcr4Vi4uiL/giphy.gif" alt="animated"/></p>
 
