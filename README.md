@@ -90,3 +90,5 @@
 <p align="center">The player movement can be controlled via the X-exis Sensors of your device in order to avoid obstacles</p><br/>
 <p align="center"><img src="https://media.giphy.com/media/JeC6mkBADcr4Vi4uiL/giphy.gif" alt="animated"/></p>
 
+ ### Enjoy
+
