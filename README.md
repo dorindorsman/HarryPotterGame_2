@@ -69,7 +69,7 @@
  </table>
  
  
- ### Screens: :iphone:
+ # Screens: :iphone:
  |Splash Screen - using Anmation|Menu Screen - The player has to enter his name|Settings Screen - The player can choose a character to play|Top 10 Screen - The player can expect the maximum score|
  |--|--|--|--|
  |<img src="https://media.giphy.com/media/k1KASi3xNivjjBSb4N/giphy.gif" alt="animated" width="400" height="480"/>|<img src="https://media.giphy.com/media/G9JfCBBEJJQPPoJ9S3/giphy.gif" alt="animated" width="420" height="480"/>|<img src="https://media.giphy.com/media/t8cHvlCBbU3CDl8wYQ/giphy.gif" alt="animated" width="350" height="480"/>|<img src="https://media.giphy.com/media/cE34AwkVSy38Y85e17/giphy.gif" alt="animated" width="350" height="480"/>|
